@@ -1,0 +1,4 @@
+beat_name: testbeat
+beat_url: 'https://github.com/ssl-shohei'
+beat_repo: 'github.com/ssl-shohei'
+beat_description: Sends testbeat metrics to Logstash or directly to Elasticsearch.

@@ -1,0 +1,9 @@
+################### Testbeat Configuration Example #########################
+
+############################# Testbeat ######################################
+
+testbeat:
+  # Defines how often an event is sent to the output
+  period: 10s
+  #index: testbeat-*
+  command: "df / | tail -1 | awk '{print $5}'"
